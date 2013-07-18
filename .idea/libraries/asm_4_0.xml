@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="asm-4.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/asm-4.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/asm-util-4.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/reflectasm-1.05.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

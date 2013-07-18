@@ -1,6 +1,7 @@
 package monnef.playground.benchmark.reflection;
 
 import monnef.playground.benchmark.reflection.test.BothMHReflection;
+import monnef.playground.benchmark.reflection.test.BothReflectASM;
 import monnef.playground.benchmark.reflection.test.FieldMHReflection;
 import monnef.playground.benchmark.reflection.test.FieldReflectionWithoutLookup;
 import monnef.playground.benchmark.reflection.test.FullReflectionWithLookup;
@@ -83,6 +84,7 @@ public class App {
         tests.add(MethodMHReflection.class);
         tests.add(FieldMHReflection.class);
         tests.add(BothMHReflection.class);
+        tests.add(BothReflectASM.class);
     }
 
     private static void addSet(HashMap<String, Tuple<Integer, String>> sets, int limit, String title) {
